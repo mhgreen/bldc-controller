@@ -11,8 +11,7 @@ from trio import run
 from trio_paho_mqtt import AsyncClient, mqtt_client
 from trio_serial import SerialStream
 
-from shutdown_manager import ShutdownManager
-
+from packages.shutdown_manager import ShutdownManager
 
 async def serial_manager(shutdown_manager, receive_command):
     logger.debug(f'serial_manager starting')
