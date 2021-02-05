@@ -4,4 +4,5 @@ poetry.lock
 python.env
 .vscode/settings.json
 bldc_controller/bldc.code-workspace
-bldc_controller/__pycache__/shutdown_manager.cpython-38.pyc
+bldc_controller/packages/__pycache__/__init__.cpython-38.pyc
+bldc_controller/packages/__pycache__/shutdown_manager.cpython-38.pyc

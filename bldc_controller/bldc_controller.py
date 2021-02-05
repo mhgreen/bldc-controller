@@ -96,7 +96,7 @@ async def open_nurseries():
 
 async def main(mdc100_port):
     logger.info('trio-mqtt-serial started')
-    await quick_toggle('pinctrl-bcm2835', pin=25)
+    await quick_toggle('pinctrl-bcm2711', pin=25)
     shutdown_manager = ShutdownManager()
     async with open_nurseries() as nurseries:
         nursery, daemon = nurseries
